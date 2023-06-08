@@ -62,8 +62,7 @@ h3 {
 }
 
 p,
-li,
-h4 {
+li {
   font-family: 'Barlow', sans-serif;
   font-size: 16px;
 }
@@ -81,6 +80,11 @@ li {
   margin-bottom: 35px;
   margin-right: 46px;
   line-height: 25px;
+}
+
+.section-food img {
+  align-self: flex-end;
+  max-width: 190px;
 }
 
 .test {
@@ -106,11 +110,6 @@ li {
 
 .separation img {
   max-width: 67px;
-}
-
-.section-food p,
-h4 {
-  text-align: center;
 }
 
 .section-festival {
@@ -139,4 +138,46 @@ h4 {
 
 footer {
   background-color: #051e36;
+}
+
+.photos {
+  display: flex;
+  flex-direction: column;
+}
+
+.festival-graffiti,
+.festival-musique,
+.portrait-closeup,
+.skate-normal,
+.musique-crowd {
+  align-self: flex-end;
+}
+
+.photos img {
+  max-width: 230px;
+  margin: 0 46px 46px;
+}
+
+.photos-festival img {
+  border: 10px solid #000;
+  border-image: url(../img/festival/border-yellow.png) round;
+  border-image-slice: calc(50 / 184 * 100%) calc(80 / 284 * 100%) fill;
+}
+
+.photos-graffiti img {
+  border: 10px solid #000;
+  border-image: url(../img/graffiti/border-purple.png) round;
+  border-image-slice: calc(50 / 184 * 100%) calc(80 / 284 * 100%) fill;
+}
+
+.photos-skate img {
+  border: 10px solid #000;
+  border-image: url(../img/skate/border-orange.png) round;
+  border-image-slice: calc(50 / 184 * 100%) calc(80 / 284 * 100%) fill;
+}
+
+.photos-musique img {
+  border: 10px solid #000;
+  border-image: url(../img/musique/border-red.png) round;
+  border-image-slice: calc(50 / 184 * 100%) calc(80 / 284 * 100%) fill;
 }
