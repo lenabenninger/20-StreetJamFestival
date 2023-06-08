@@ -15,9 +15,61 @@ header {
   background-size: cover;
 }
 
+h1 {
+  color: #d3ce00;
+  font-family: 'Vina Sans', cursive;
+  font-size: 49px;
+  line-height: 42px;
+  letter-spacing: 2px;
+}
+
+header a {
+  color: #00ff80;
+  font-family: 'Vina Sans', cursive;
+  font-size: 22px;
+  text-align: center;
+}
+
 main {
   background-color: #151900;
   background-image: url(../img/fond/pattern-blue.png);
+}
+
+h2,
+h3 {
+  font-family: 'Vina Sans', cursive;
+  text-align: end;
+}
+
+p,
+li,
+h4 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px;
+}
+
+.section-festival {
+  color: #d3cd80;
+}
+
+.section-graffiti {
+  color: #d080ff;
+}
+
+.section-skate {
+  color: #ff996c;
+}
+
+.section-musique {
+  color: #ff6982;
+}
+
+.section-food {
+  color: #b1fcc3;
+}
+
+.section-contact {
+  color: #33fff9;
 }
 
 footer {
