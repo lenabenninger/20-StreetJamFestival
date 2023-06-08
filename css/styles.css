@@ -11,5 +11,15 @@ img {
 
 header {
   background-image: url(../img/header-skate-inversed.jpg);
+  background-image: url(../img/fond/skate-inversed-colors.jpg);
+  background-size: cover;
 }
 
+main {
+  background-color: #151900;
+  background-image: url(../img/fond/pattern-blue.png);
+}
+
+footer {
+  background-color: #051e36;
+}
