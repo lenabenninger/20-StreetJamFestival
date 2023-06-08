@@ -181,3 +181,17 @@ footer {
   border-image: url(../img/musique/border-red.png) round;
   border-image-slice: calc(50 / 184 * 100%) calc(80 / 284 * 100%) fill;
 }
+
+.flex-foodtrucks {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.foodtruck {
+  align-self: flex-end;
+}
+
+.foodtruck img {
+  margin: 20px 46px 0;
+}
