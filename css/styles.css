@@ -1,5 +1,10 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   max-width: 320px;
+  max-width: 380px;
   margin: auto;
   background: #ddd;
 }
@@ -15,12 +20,20 @@ header {
   background-size: cover;
 }
 
+header img {
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
 h1 {
   color: #d3ce00;
   font-family: 'Vina Sans', cursive;
   font-size: 49px;
   line-height: 42px;
   letter-spacing: 2px;
+  padding: 0 45px 5px;
+  margin-top: -65px;
+  margin-left: 10px;
 }
 
 header a {
@@ -28,6 +41,14 @@ header a {
   font-family: 'Vina Sans', cursive;
   font-size: 22px;
   text-align: center;
+  font-size: 24px;
+  padding: 0 6px 17px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 6px 17px;
 }
 
 main {
