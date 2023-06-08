@@ -3,7 +3,6 @@ html {
 }
 
 body {
-  max-width: 320px;
   max-width: 380px;
   margin: auto;
   background: #ddd;
@@ -15,7 +14,6 @@ img {
 }
 
 header {
-  background-image: url(../img/header-skate-inversed.jpg);
   background-image: url(../img/fond/skate-inversed-colors.jpg);
   background-size: cover;
 }
@@ -27,7 +25,7 @@ header img {
 
 h1 {
   color: #d3ce00;
-  font-family: 'Vina Sans', cursive;
+  font-family: 'Vina Sans', sans-serif;
   font-size: 49px;
   line-height: 42px;
   letter-spacing: 2px;
@@ -38,9 +36,7 @@ h1 {
 
 header a {
   color: #00ff80;
-  font-family: 'Vina Sans', cursive;
-  font-size: 22px;
-  text-align: center;
+  font-family: 'Vina Sans', sans-serif;
   font-size: 24px;
   padding: 0 6px 17px;
 }
@@ -54,12 +50,15 @@ nav {
 main {
   background-color: #151900;
   background-image: url(../img/fond/pattern-blue.png);
+  background-size: contain;
 }
 
 h2,
 h3 {
-  font-family: 'Vina Sans', cursive;
+  font-family: 'Vina Sans', sans-serif;
   text-align: end;
+  font-size: 37px;
+  padding-right: 46px;
 }
 
 p,
@@ -67,6 +66,51 @@ li,
 h4 {
   font-family: 'Barlow', sans-serif;
   font-size: 16px;
+}
+
+p {
+  margin: 0 46px 30px;
+  line-height: 27px;
+}
+
+ul { 
+  list-style: none;
+}
+
+li {
+  margin-bottom: 35px;
+  margin-right: 46px;
+  line-height: 25px;
+}
+
+.test {
+  display: inline-block;
+  text-align: left;
+}
+
+.titre-image {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 10px;
+}
+
+.decoupage {
+  max-width: 250px;
+}
+
+.separation {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 36px
+}
+
+.separation img {
+  max-width: 67px;
+}
+
+.section-food p,
+h4 {
+  text-align: center;
 }
 
 .section-festival {
