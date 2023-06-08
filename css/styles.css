@@ -105,7 +105,7 @@ li {
 .separation {
   display: flex;
   justify-content: space-around;
-  padding: 0 36px
+  margin: 0 36px 40px;
 }
 
 .separation img {
@@ -194,4 +194,12 @@ footer {
 
 .foodtruck img {
   margin: 20px 46px 0;
+}
+
+.separation-left {
+  transform: rotate(120deg)
+}
+
+.separation-right {
+  transform: rotate(240deg)
 }
