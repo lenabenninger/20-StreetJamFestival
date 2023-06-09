@@ -107,28 +107,54 @@ li {
   max-width: 67px;
 }
 
+.section-festival h2 {
+  color: #d5d000;
+}
+
 .section-festival {
   color: #d3cd80;
+}
+
+.section-graffiti h2 {
+  color: #ff00ff;
 }
 
 .section-graffiti {
   color: #d080ff;
 }
 
+.section-skate h2 {
+  color: #ff8000;
+}
+
 .section-skate {
   color: #ff996c;
+}
+
+.section-musique h2 {
+  color: #ff2751;
 }
 
 .section-musique {
   color: #ff6982;
 }
 
+.section-food h2 {
+  color: #00ff80;
+}
+
 .section-food {
   color: #b1fcc3;
 }
 
+.section-contact h2 {
+  color: #33fff8c3;
+  margin: 0;
+  padding-top: 40px;
 }
 
+.section-contact {
+  color: #33fff8c3;
 }
 
 .photos {
@@ -147,6 +173,7 @@ li {
 .photos img {
   max-width: 230px;
   margin: 0 46px 46px;
+  order: 10px solid #000;
 }
 
 .photos-festival img {
@@ -184,6 +211,12 @@ li {
 }
 
 .foodtruck img {
+  margin: 20px 46px 10px;
+  transform: rotate(5deg);
+}
+
+.foodtruck-rotation img{
+  transform: rotate(-5deg);
 }
 
 .separation-left {
