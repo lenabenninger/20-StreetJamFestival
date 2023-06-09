@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  background-color: #000000f7;
 }
 
 body {
@@ -34,16 +35,16 @@ h1 {
   margin-left: 10px;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 6px 17px;
+}
+
 header a {
   color: #00ff80;
   font-family: 'Vina Sans', sans-serif;
   font-size: 24px;
-  padding: 0 6px 17px;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
   padding: 0 6px 17px;
 }
 
@@ -53,23 +54,22 @@ main {
   background-size: contain;
 }
 
-h2,
-h3 {
+h2 {
   font-family: 'Vina Sans', sans-serif;
   text-align: end;
   font-size: 37px;
   padding-right: 46px;
 }
 
+p {
+  margin: 0 46px 30px;
+  line-height: 27px;
+}
+
 p,
 li {
   font-family: 'Barlow', sans-serif;
   font-size: 16px;
-}
-
-p {
-  margin: 0 46px 30px;
-  line-height: 27px;
 }
 
 ul { 
@@ -85,11 +85,6 @@ li {
 .section-food img {
   align-self: flex-end;
   max-width: 190px;
-}
-
-.test {
-  display: inline-block;
-  text-align: left;
 }
 
 .titre-image {
@@ -132,12 +127,8 @@ li {
   color: #b1fcc3;
 }
 
-.section-contact {
-  color: #33fff9;
 }
 
-footer {
-  background-color: #051e36;
 }
 
 .photos {
@@ -193,7 +184,6 @@ footer {
 }
 
 .foodtruck img {
-  margin: 20px 46px 0;
 }
 
 .separation-left {
@@ -202,4 +192,21 @@ footer {
 
 .separation-right {
   transform: rotate(240deg)
+}
+
+footer {
+  background-color: #051e36;
+  background-image: url(../img/fond/pattern-black.png);
+  background-size: cover;
+}
+
+.social-media-logo {
+  max-width: 46px;
+  padding: 0 26px 40px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
